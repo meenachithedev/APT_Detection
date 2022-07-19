@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 #A class for standardising data
 class DataLoader():
-    
     #get the data from the given csv file
     def __init__(self, filename,cols):
         dataframe = pd.read_csv(filename)
